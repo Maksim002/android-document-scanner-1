@@ -14,5 +14,5 @@ A simple Android document scanner app built with [Dynamsoft Camera SDK](https://
 
     ![Android camera document scanner](http://www.codepool.biz/wp-content/uploads/2018/05/android-camera-scanner.png)
 
-
-
+## Blog
+[The Preview of Dynamsoft Android Camera SDK](https://www.codepool.biz/preview-dynamsoft-android-camera-sdk.html)
