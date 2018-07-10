@@ -17,6 +17,9 @@ buildscript {
 
 allprojects {
     repositories {
+        maven{
+            url 'https://download.dynamsoft.com/maven/dcs'
+        }
         google()
         jcenter()
     }

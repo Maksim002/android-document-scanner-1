@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity(), DcsViewListener {
         dcsView.setListener(this)
 
         try {
-            dcsView.videoView.mode = DcsVideoView.DME_DOCUMENT
+            dcsView.videoView.mode = DcsView.DME_DOCUMENT
         } catch (e: DcsValueOutOfRangeException) {
             e.printStackTrace()
         }
