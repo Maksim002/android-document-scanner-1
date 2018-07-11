@@ -4,6 +4,12 @@ apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-android-extensions'
 
+repositories {
+    maven{
+        url 'https://download.dynamsoft.com/maven/dcs'
+    }
+}
+
 android {
     compileSdkVersion 27
     defaultConfig {
